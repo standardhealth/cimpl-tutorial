@@ -1,0 +1,26 @@
+Grammar: DataElement 5.0
+Namespace: zoo.animal
+Description: "Animal residents of the zoo"
+Uses: shr.core, shr.base
+
+EntryElement: Animal
+1..1 DateOfBirth
+0..* Name
+1..1 DeceasedStatus
+0..1 AnimalType
+
+  Element: DateOfBirth
+  Description: "A date of birth"
+  Value: date
+
+  Element: Name
+  Description: "A name used to refer to an animal"
+  Value: string
+
+  Element: DeceasedStatus
+  Description: "An indication that the animal is no longer living, given by a boolean value which, when true, indicates the animal is deceased."
+  Value: boolean
+
+  Element: AnimalType
+  Description: "Classification code of an animal"
+  Value: code from AnimalTypeVS

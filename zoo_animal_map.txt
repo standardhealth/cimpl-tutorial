@@ -1,0 +1,8 @@
+Grammar: Map 5.0
+Namespace: zoo.animal
+Target: FHIR_STU_3
+
+Animal maps to Patient:
+  // Name maps to name
+  DateOfBirth maps to birthDate
+  DeceasedStatus maps to deceased[x].boolean

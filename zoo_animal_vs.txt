@@ -1,0 +1,10 @@
+Grammar: ValueSet 5.0
+Namespace: zoo.animal
+
+ValueSet: AnimalTypeVS // These are the major classes of animal that we want to model.
+#invertebrate   "Invertebrates are characterized by their lack of backbones and internal skeletons"
+#fish           "Fish breathe using gills, and are equipped with 'lateral lines' that detect water currents and even electricity"
+#amphibian      "Amphibians are characterized by their semi-aquatic lifestyles (they have to stay near bodies of water, both to maintain the moisture of their skin and to lay their eggs)"
+#reptile        "Reptiles are characterized by their cold-blooded metabolisms, their scaly skin, and their leathery eggs, which, unlike amphibians, they can lay some distance away from bodies of water"
+#bird           "Birds are characterized by their coats of feathers, their warm-blooded metabolisms, their memorable songs (at least in certain species), and their ability to adapt to a wide range of habitats"
+#mammal         "Mammals are characterized by their hair or fur (which all species possess during some stage of their life cycles), the milk with which they suckle their young, and their warm-blooded metabolisms"
