@@ -1,16 +1,16 @@
 {
-    "projectName": "Example Project",
-    "projectShorthand": "EXAMPLE",
-    "projectURL": "http://example.com",
-    "fhirURL": "http://example.com/fhir",
+    "projectName": "We bought a zoo",
+    "projectShorthand": "ZOO",
+    "projectURL": "http://thatzoowebought.com",
+    "fhirURL": "http://thatzoowebought.com/fhir",
     "igIndexContent": "exampleIndexContent.html",
-    "publisher": "Example Publisher",
+    "publisher": "Zoo Owner",
     "contact": [
         {
             "telecom": [
                 {
                     "system": "url",
-                    "value": "http://example.com"
+                    "value": "http://thatzoowebought.com"
                 }
             ]
         }
