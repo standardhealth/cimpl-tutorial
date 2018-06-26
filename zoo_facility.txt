@@ -8,7 +8,8 @@ CodeSystem: MTH = http://ncimeta.nci.nih.gov
 EntryElement: Enclosure
 Concept: MTH#C2986715
 Value: code from EnclosureVS
-1..* Dimensions
+1..1 Dimensions
+Dimensions.DimensionComponent
   includes 1..1 Length
   includes 1..1 Width
 
