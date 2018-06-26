@@ -1,0 +1,7 @@
+Grammar: ValueSet 5.0
+Namespace: zoo.facility
+
+ValueSet: EnclosureVS // These are the environments in which our animals live.
+#tropical   "An environment with average temperature of above 18 degrees Celsius and considerable precipitation during at least part of the year"
+#aquatic    "An ecosystem in a body of water"
+#sky        "An ecosystem in the sky"

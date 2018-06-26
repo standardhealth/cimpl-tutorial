@@ -1,0 +1,25 @@
+Grammar: DataElement 5.0
+Namespace: zoo.facility
+Description: "Enclosure environments of the zoo"
+Uses: shr.core, shr.base
+
+CodeSystem: MTH = http://ncimeta.nci.nih.gov
+
+EntryElement: Enclosure
+Concept: MTH#C2986715
+Value: code from EnclosureVS
+1..* Dimensions
+  includes 1..1 Length
+  includes 1..1 Width
+
+EntryElement: Jungle
+Based on: Enclosure
+Value is #tropical
+
+EntryElement: Aquarium
+Based on: Enclosure
+Value is #aquatic
+
+EntryElement: Aviary
+Based on: Enclosure
+Value is #sky

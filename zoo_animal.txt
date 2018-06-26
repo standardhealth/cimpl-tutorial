@@ -24,3 +24,18 @@ EntryElement: Animal
   Element: AnimalType
   Description: "Classification code of an animal"
   Value: code from AnimalTypeVS
+
+EntryElement: Lion
+Based on: Animal
+Description: "The king of the jungle."
+AnimalType is #mammal
+
+EntryElement: Shark
+Based on: Animal
+Description: "The king of the ocean."
+AnimalType is #fish
+
+EntryElement: Eagle
+Based on: Animal
+Description: "The king of the sky."
+AnimalType is #bird
